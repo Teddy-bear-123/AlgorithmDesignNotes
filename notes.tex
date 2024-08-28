@@ -1,0 +1,30 @@
+\documentclass{report}
+\usepackage{fancyhdr}
+\usepackage{pgfplots}
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+
+\title{\huge{Design and Analysis of Algorithms}}
+\author{\huge{Rishi}}
+\date{}
+
+\begin{document}
+\maketitle
+\pagestyle{fancy}
+\fancyhf{}
+
+\begin{center}
+	\emph{This document is a collection of notes on the design and analysis of algorithms.}
+\end{center}
+
+\tableofcontents
+\pagenumbering{arabic}
+\pagestyle{headings}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\input{AsymptoticNotation}
+
+\pagebreak
+
+\end{document}
