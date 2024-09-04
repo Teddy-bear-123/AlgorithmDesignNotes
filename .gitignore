@@ -5,6 +5,7 @@
 !.gitignore
 !README.md
 !*.tex
+!./photoes
 
 # Ignore LaTeX build files
 **/*.aux

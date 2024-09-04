@@ -1,9 +1,15 @@
 \documentclass{report}
 \usepackage{fancyhdr}
 \usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage{algpseudocode}
+\usepackage{verbatim}
+\usepackage[inputdir=./build/]{dot2texi}
 \input{preamble}
 \input{macros}
 \input{letterfonts}
+
+\graphicspath{ {./photoes/} }
 
 
 \title{\huge{Design and Analysis of Algorithms}}
@@ -23,6 +29,7 @@
 \pagestyle{headings}
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 \input{AsymptoticNotation}
+\input{Greedy}
 
 \pagebreak
 
